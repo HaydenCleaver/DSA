@@ -32,7 +32,7 @@ class LinkedList {
     let newString = '';
     let current = this.head;
     while(current){
-      newString = newString + `{${current.value.toString()}} ->`;
+      newString = newString + `{${current.value.toString()}} -> `;
       current = current.next;
     }
     newString += 'NULL';
@@ -46,6 +46,9 @@ console.log('empty list', list);
 
 list.insert(1);
 list.insert(2);
+
+console.log(list);
+
 list.insert(3);
 list.insert(7);
 list.insert('hello');
@@ -56,4 +59,4 @@ console.log(list.includes(7));
 console.log(list.includes('hello'));
 console.log(list.includes(5));
 
-module.exports = LinkedList;
+module.exports = {Node, LinkedList};
