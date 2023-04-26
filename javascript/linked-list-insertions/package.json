@@ -1,0 +1,12 @@
+{
+  "name": "linked-list-insertions",
+  "version": "1.0.0",
+  "description": "Write the following methods for the Linked List class:",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage --verbose"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
